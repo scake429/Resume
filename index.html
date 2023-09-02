@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Резюме</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/favicon/favicon1.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav_menu">
+                <ul class="nav_list">
+                    <li>
+                        <a class="nav_ref" href="#contact">Контактная информация</a>
+                    </li>
+                    <li>
+                        <a class="nav_ref" href="#about">О себе</a>
+                    </li>
+                    <li>
+                        <a class="nav_ref" href="#code">Пример кода</a>
+                    </li>
+                    <li>
+                        <a class="nav_ref" href="#education">Образование</a>
+                    </li>
+                    <li>
+                        <a class="nav_ref" href="#experience">Опыт работы</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="section section_name">
+                <div class="img">
+                    <img class="img_photo" src="assets/img/2_1.jpg" alt="Photo AristarhovaNN" width="227px">
+                </div>
+                <div class="name_vacancy">
+                    <h1>Аристархова Наталья</h1>
+                    <h2>Тестировщик</h2>
+                </div>
+                <div class="contact_info">
+                    <h2 id="contact">Контактная информация</h2>
+                    <div class="line"></div>
+                    <ul>
+                        <li class="contact_info_item"><img src="assets/icons/иконка-адрес-30.png" alt="Иконка адрес" width="18" height="18">Россия, Саратов</li>
+                        <li class="contact_info_item"><img src="assets/icons/иконка-телефон-30.png" alt="Иконка адрес" width="18" height="18">+79372418738</li>
+                        <li class="contact_info_item"><img src="assets/icons/иконка-почта-30.png" alt="Иконка адрес" width="18" height="18">
+                            <a href="mailto:scake429@gmail.com" target="_blank">scake429@gmail.com</a>
+                        </li>
+                        <li class="contact_info_item"><img src="assets/icons/иконка-github-30.png" alt="Иконка адрес" width="20" height="20">
+                            <a href="https://github.com/scake429" target="_blank">scake429</a></li>
+                    </ul>
+                </div> 
+            </section>
+            <section class="section section_contact">
+            </section>
+            <section class="section section_about">
+                <div class="name_category_line">
+                    <h2 id="about">О себе</h2>
+                    <div class="line"></div>
+                </div>       
+                <p>Just trying to get into IT a little bit&rpar;<br>
+                    I have work experience in accounting, support 1C and in testing at Cypress.
+                </p>
+            </section>
+            <section class="section section_code">
+                <div class="name_category_line">
+                    <h2 id="code">Пример кода</h2>
+                    <div class="line"></div>
+                </div>
+                <pre>
+                    <code>
+                    cy.loginBooksApp(mailTest_1, passTest_1); 
+                    cy.get('a[href="/favorites"]').as('favorites');
+                    cy.addBook('MyBook1', 'About Cypress');
+                    cy.addBook('MyBook2', 'About Netology');
+                    cy.addBook('MyBook3', 'About JS');
+                    cy.logOut();
+                     </code>
+                </pre>
+            </section>
+            <section class="section section_education">
+                <div class="name_category_line">
+                    <h2 id="education">Образование</h2>
+                    <div class="line"></div>
+                </div>                
+                <p>Саратовский национальный исследовательский государственный университет имени Н. Г. Чернышевского<br/>
+                    Физический факультет/специальность "Физика", оптика и спектроскопия</p>
+                    <p class="paragraph_year">2007, Саратов</p>
+            </section>
+            <section class="section section_experience">
+                <div class="name_category_line">
+                    <h2 id="experience">Опыт работы</h2>
+                    <div class="line"></div>
+                </div>
+                <ul>
+                    <li class="experience_item">
+                        <img src="assets/icons/point_list.svg" alt="Пункт списка" width="18" height="18">    
+                        <div class="experience_item_text">
+                            ООО "Эргономика" г. Саратов<br/>
+                            <img src="assets/icons/иконка-сайт-30.png" alt="Иконка сайта" width="18" height="18">&nbsp;
+                            <a href="https://glomos.ru/ru" target="_blank">glomos.ru</a><br/>
+                            <span class="font_weight">Тестировщик</span><br/>
+                            Написание тестов на Cypress для проверки работы CRM<br/>
+                            <span class="paragraph_year">декабрь 2021 - ноябрь 2022</span>
+                        </div>
+                    </li>
+                    <li class="experience_item">
+                        <img src="assets/icons/point_list.svg" alt="Пункт списка" width="18" height="18">
+                        <div class="experience_item_text">
+                            ООО ИК СИБИНТЕК г. Саратов<br/>
+                            <img src="assets/icons/иконка-сайт-30.png" alt="Иконка сайта" width="18" height="18">&nbsp;
+                            <a href="https://www.sibintek.ru/" target="_blank">sibintek.ru</a><br/>
+                            <span class="font_weight">Программист-стажер 1C</span><br/>
+                            В рамках стажировки проходила обучение программированию 1С, параллельно работая на 1,5 линии поддержки (поиск причин ошибок и вопросов в дописанном коде конфигураций)<br/>
+                            <span class="paragraph_year">ноябрь 2020 - октябрь 2021</span>
+                        </div>
+                    </li>
+                    <li class="experience_item">
+                        <img src="assets/icons/point_list.svg" alt="Пункт списка" width="18" height="18">
+                        <div class="experience_item_text">
+                            ООО "НПЦ Бюджет-Саратов" г. Саратов<br/>
+                            <img src="assets/icons/иконка-сайт-30.png" alt="Иконка сайта" width="18" height="18">&nbsp;
+                            <a href="http://budget-saratov.ru/" target="_blank">budget-saratov.ru</a><br/>
+                            <span class="font_weight">Специалист отдела внедрения и качества 1С</span><br/>
+                            Консультирование и поддержка клиентов (бюджетных организаций) по работе в конфигурациях 1С:
+                            <ul>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    вопросы по бухгалтерскому учету, отчетности и 1С-отчетности</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    обновления конфигураций (в том числе баз, снятых с поддержки), классификаторов</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    установка платформ, получение лицензий</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    сопровождение при реорганизации клиентов (объединение баз), перенос данных из одной конфигурации в другую (стандартные обработки)</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    помощь в решении любых рабочих вопросов клиентов</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    консультация с программистами</li>
+                            </ul>
+                            <span class="paragraph_year">март 2019 - сентябрь 2020</span>
+                        </div>
+                    </li>
+                    <li class="experience_item">
+                        <img src="assets/icons/point_list.svg" alt="Пункт списка" width="18" height="18">
+                        <div class="experience_item_text">
+                            Государственное казенное учреждение Саратовской области<br/>
+                            "Центр коммуникации по вопросам социальной защиты населения Саратовской области"<br/>
+                            <img src="assets/icons/иконка-сайт-30.png" alt="Иконка сайта" width="18" height="18">&nbsp;
+                            <a href="https://social.saratov.gov.ru/social_state_institutions/ckszn/" target="_blank">social.saratov.gov.ru</a><br/>
+                            <span class="font_weight">Ведущий специалист/Главный специалист-эксперт/Консультант</span><br/>
+                            Консультирование и поддержка клиентов (бюджетных организаций) по работе в конфигурациях 1С:
+                            <ul>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    работа с 1С:Предприятие 8.3(конфигурация бухгалтерия), АС УРМ, Свод СМАРТ</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    формирование и сдача отчетности (ф. 0503169, ф. 0503160, ф. 0503123)</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    соблюдение порядка оформления первичных документов в соответствии с законодательством и правилами составления бухгалтерских документов</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    проведение начислений по справкам о начисленных и выплаченных пособиях, проверка кассовых расходов и задолженности по исполняемым законам</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    проведение начислений по предоставленным актам сверки взаиморасчетов с ФГУП "Почта России"</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    подготовк актов сверки взаиморасчетов с контрагентами и по запросам организаций</li>
+                                <li><img src="assets/icons/point_list.svg" alt="Пункт списка" width="13" height="13">
+                                    формированием журналов-операций</li>
+                            </ul>
+                            <span class="paragraph_year">март 2019 - сентябрь 2020</span>
+                    </li>
+                </ul>
+                           
+                <!-- <ul>
+                    <li>Russian - Native</li>
+                    <li>English - A1 (Beginner)</li>
+                </ul> -->
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer_div">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="assets/svg/rs_school_js_white_logo.svg" alt="Logo RS School" width="96" height="45">
+                </a>
+                <p>&copy; 2023</p>
+                <a href="https://github.com/scake429" target="_blank">
+                    <img src="assets/icons/github_white_logo.svg" alt="Logo GitHub" width="46" height="45">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
+
