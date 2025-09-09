@@ -126,7 +126,8 @@ h2 {
 
 .contact_info ul,
 .section_experience ul,
-.section_code ul {
+.section_code ul,
+.section_education ul {
     list-style: none;
 }
 
@@ -157,7 +158,8 @@ h2 {
 }
 
 .section_experience ul,
-.section_code ul {
+.section_code ul,
+.section_education ul {
     padding-inline-start: 0;
 }
 
