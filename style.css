@@ -60,7 +60,8 @@ body {
 
 .contact_info a,
 .section_experience a,
-.section_code a {
+.section_code a,
+.section_education a {
     color: #7f3cc3;
     text-decoration: none;
 }
@@ -68,7 +69,8 @@ body {
 .nav_ref:hover,
 .contact_info a:hover,
 .section_experience a:hover,
-.section_code a:hover {
+.section_code a:hover,
+.section_education a:hover {
     text-decoration: underline;
 }
 
